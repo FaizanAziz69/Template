@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faizan</title>
+  </head>
+  <style>
+    body{
+        margin: 0px !important;
+    }
+    .project {
+      width: 100%;
+    }
+
+    /* * {
+      margin: 0;
+      padding-left: 0;
+      
+    } */
+
+    .main {
+      display: flex;
+      justify-content: space-between;
+      height: 30px;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      background-color: white;
+      padding: 8px;
+    }
+    .links {
+      display: flex;
+      list-style: none;
+      font-size: 17px;
+      font-weight: 400;
+    }
+    .link {
+      text-decoration: none;
+      color: black;
+      letter-spacing: 4px;
+      padding: 5px 12px 5px 12px;
+    }
+
+    .link:hover {
+      background-color: lightgray;
+    }
+    .logo {
+      list-style: none;
+      cursor: pointer;
+      letter-spacing: 5px;
+      padding: 15px;
+    }
+    .img {
+        width: 100%;
+      height: 800px;
+
+    }
+    .linklogo {
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: bold;
+      color: black;
+    }
+    .logo li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo :hover {
+      background-color: lightgray;
+    }
+
+    .logomain {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 19px;
+      letter-spacing: 4px;
+      color: black;
+    }
+
+    .logomain span {
+      margin: 0px 4px;
+      color: black;
+    
+    }
+
+    .logomain:hover {
+      background-color: lightgray;
+    }
+    .cardmain {
+      padding: 50px 20px;
+    }
+    .allimages {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .img2 {
+      display: inline-block;
+      width: 24%;
+      margin-top: 10px;
+    }
+    .About {
+      padding: 50px 20px;
+      font-weight: 500;
+    }
+    .line {
+      border-top: 1px solid lightgrey;
+      padding: 20px;
+      width: 95%;
+    }
+    .text {
+      font-size: 17px;
+      font-weight: 800px;
+      /* padding: 5px; */
+      text-align: left;
+    }
+    .card2 {
+      width: 100%;
+    }
+    .johndoe {
+      height: 250px;
+      width: 375px;
+    }
+    .name {
+      font-weight: 300;
+      padding: 3px;
+    }
+    .Ceo {
+      font-size: 20px;
+      font-weight: 200;
+      color: grey;
+      padding: 7px;
+    }
+    .P {
+      font-size: 16px;
+      font-weight: 500;
+      width: 280px;
+    }
+
+    .maincard {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .Dan {
+      height: 250px;
+      width: 97%;
+      font-weight: 400;
+
+    }
+    .Contact {
+      width: 260px;
+      border: none;
+      height: 10%;
+      font-size: 15px;
+      cursor: pointer;
+      margin-top: 3%;
+    }
+    .Contact:hover {
+      background-color: grey;
+    }
+    .webiste-contact {
+      font-size: 23px;
+      font-weight: 100;
+      /* border-bottom: 1px solid lightgray; */
+      padding: 10px;
+      margin-top: 2%;
+    }
+    .contact-p {
+      font-weight: 200;
+      font-size: 18px;
+      margin-top: 2%;
+      padding: 10px;
+    }
+    .inputs {
+      padding: 12px;
+      width: 98%;
+      color: grey;
+      font-size: 17px;
+      margin-top: 10px;
+    }
+    .sendmessage {
+      background-color: black;
+      color: white;
+      margin-top: 30px;
+      height: 45px;
+      width: 150px;
+      font-weight: bold;
+      border: none;
+    }
+    .sendmessage:hover {
+      background-color: grey;
+    }
+    .map {
+      margin-top: 35px;
+      border-style: none;
+      width: min-content;
+    }
+    .footer {
+      background-color: black;
+      color: white;
+      height: 100px;
+      margin-top: 7px;
+      width: 100%;
+      font-size: 17px;
+      font-weight: 700;
+    }
+    .footer_child {
+      display: flex;
+      justify-content: center;
+      height: inherit;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div class="project">
+      <div class="main">
+        <!-- <div class="logo">
+        <li>
+          <a href="#" class="linklogo">BR</a>
+          <span style="margin-left: 10%"> Architects </span>
+        </li>
+      </div> -->
+
+        <div class="logomain"><a  href="#home" style="color: black; text-decoration: none;">
+          <span  style="font-weight: bold; font-size: 18px; letter-spacing: 4px"
+            >BR</span
+          >
+
+          <span>Architects</span></a>
+        </div>
+        <div class="links">
+          <li><a href="#Project" class="link">Projects</a></li>
+          <li><a href="#About" class="link">About</a></li>
+          <li><a href="#Contact" class="link">Contact</a></li>
+        </div>
+      </div>
+
+      <div class="img" id="home">
+        <img src="/assets/architect.jpg" alt="" />
+      </div>
+      <div class="cardmain" id="Project">
+        <h2 style="font-weight: 500">Projects</h2>
+      </div>
+      <div class="allimages">
+        <img class="img2" src="/assets/house5.jpg" alt="" />
+        <img class="img2" src="/assets/house2.jpg" alt="" />
+        <img class="img2" src="/assets/renovated.jpg" alt="" />
+        <img class="img2" src="/assets/house4.jpg" alt="" />
+        <img class="img2" src="/assets/house2.jpg" alt="" />
+        <img class="img2" src="/assets/house5.jpg" alt="" />
+        <img class="img2" src="/assets/house4.jpg" alt="" />
+        <img class="img2" src="/assets/house3.jpg" alt="" />
+      </div>
+      <div>
+        <h2 class="About" id="About" >About</h2>
+      </div>
+      <div class="line">
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+          explicabo harum laudantium recusandae molestias ea illum distinctio
+          quod dolorem pariatur tempore deleniti accusantium expedita sit
+          mollitia fugit quidem autem laboriosam, consectetur placeat in
+          consequatur! Deserunt reiciendis assumenda ullam voluptatum atque.
+          Inventore nesciunt voluptates corrupti veniam reprehenderit alias
+          repudiandae eius ipsa blanditiis amet esse illo ipsum minus debitis
+          vitae laborum, earum asperiores tenetur quisquam numquam. Quibusdam,
+          nulla delectus sed amet assumenda eum consequatur voluptates alias
+          quasi facilis, corrupti quaerat expedita dignissimos vitae quo non
+          officiis totam aliquid eaque voluptas. Iure nam odit voluptatum
+          voluptatem maiores. Neque, consequatur obcaecati. Repellendus,
+          laboriosam consequatur!
+        </p>
+      </div>
+      <div class="maincard">
+        <div class="card2">
+          <img class="Dan" src="/assets/johndoe.jpg" alt="" />
+          <h1 class="name">John Doe</h1>
+          <h6 class="Ceo">Ceo & Founder</h6>
+          <p class="P">
+            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+            sodales pellentesque elementum.
+          </p>
+          <button class="Contact">Contact</button>
+        </div>
+        <div class="card2">
+          <img class="Dan" src="/assets/jane.jpg" alt="" />
+          <h1 class="name">Jane Doe</h1>
+          <h6 class="Ceo">Architect</h6>
+          <p class="P">
+            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+            sodales pellentesque elementum.
+          </p>
+          <button class="Contact">Contact</button>
+        </div>
+        <div class="card2">
+          <img class="Dan" src="/assets/mike.jpg" alt="" />
+          <h1 class="name">mike Ross</h1>
+          <h6 class="Ceo">Architect</h6>
+          <p class="P">
+            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+            sodales pellentesque elementum.
+          </p>
+          <button class="Contact">Contact</button>
+        </div>
+        <div class="card2">
+          <img class="Dan" src="/assets/dan.jpg" alt="" />
+          <h1 class="name">Dan Star</h1>
+          <h6 class="Ceo">Architect</h6>
+          <p class="P">
+            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+            sodales pellentesque elementum.
+          </p>
+          <button class="Contact" id="Contact">Contact</button>
+        </div>
+      </div>
+      <div>
+        <h1 class="webiste-contact">Contact</h1>
+        <h4 class="contact-p">
+          Lets get in touch and talk about your next project.
+        </h4>
+        <input
+          class="inputs"
+          type="text"
+          placeholder="name"
+        
+        /><br />
+        <input
+          class="inputs"
+          type="email"
+          placeholder="email"
+       
+        /><br />
+        <input
+          class="inputs"
+          type="text"
+          placeholder="Subject"
+        
+        /><br />
+        <input
+          class="inputs"
+          type="Comment"
+          placeholder="Comment"
+    
+        /><br />
+        <button class="sendmessage">SEND MESSAGE</button>
+      </div>
+      <div>
+        <img class="map" src="/assets/map.jpg" alt="" />
+      </div>
+      <div class="footer">
+        <div class="footer_child">
+          <p>Powered by</p>
+          <a
+          target="_blank"
+            style="margin-left: 7px; color: white"
+            href="https://www.w3schools.com/css/default.asp"
+            >w3.css</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
